@@ -2,7 +2,6 @@ package ru.netogy;
 
 import java.util.List;
 
-// Принцип SRP: Класс ProductFilter отвечает только за фильтрацию товаров
 class ProductFilter {
     public static List<Product> filterByKeyword(List<Product> products, String keyword) {
         return products.stream()

@@ -1,6 +1,5 @@
 package ru.netogy;
 
-// Принцип SRP: Класс Product отвечает только за хранение данных о товаре
 public class Product {
     private int id;
     private String name;

@@ -3,7 +3,6 @@ package ru.netogy;
 import java.util.List;
 import java.util.Map;
 
-// Принцип DIP: Класс RecommendationSystem зависит от абстракции (Product), а не от конкретной реализации
 class RecommendationSystem {
     private List<Product> products;
 

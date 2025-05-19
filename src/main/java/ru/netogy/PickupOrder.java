@@ -1,8 +1,7 @@
 package ru.netogy;
 
-import java.util.*;
+import java.util.List;
 
-// Принцип LSP: Класс PickupOrder может заменять Order без изменения поведения
 class PickupOrder extends Order {
     private String pickupPoint;
 

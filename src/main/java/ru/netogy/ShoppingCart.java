@@ -3,7 +3,6 @@ package ru.netogy;
 import java.util.ArrayList;
 import java.util.List;
 
-// Принцип SRP: Класс ShoppingCart отвечает только за управление корзиной
 class ShoppingCart {
     private List<Product> products = new ArrayList<>();
 

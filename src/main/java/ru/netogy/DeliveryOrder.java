@@ -2,7 +2,6 @@ package ru.netogy;
 
 import java.util.List;
 
-// Принцип LSP: Класс DeliveryOrder может заменять Order без изменения поведения
 class DeliveryOrder extends Order {
     private String address;
 
